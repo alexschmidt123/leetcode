@@ -1,1 +1,1 @@
-**complete offline leetcode q1-q100 with answers**
+**complete offline leetcode with answers**
