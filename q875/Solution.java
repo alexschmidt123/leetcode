@@ -1,15 +1,14 @@
 package q875;
-import java.util.*;
 
 class Solution {
     public int minEatingSpeed(int[] piles, int h) {
-        int l = 1;
-        int r = piles[0];
+        int l = 1; //left
+        int r = piles[0];  //right, initial value is the max element in the array
         for(int i = 0;i<piles.length;i++){
             r=Math.max(r,piles[i]);
         }
         
-        int m;        
+        int m;  // middle   
         int ans = -1;
         while(l<=r){
             m = (l+r)/2; 
