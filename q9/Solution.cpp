@@ -1,6 +1,4 @@
 #include <iostream>
-#include <sys/sysctl.h>
-#include <string>
 
 using namespace std;
 
